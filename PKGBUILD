@@ -3,7 +3,7 @@
 pkgname='akshara-git'
 pkgver=r33.e380b80
 pkgrel=1
-pkgdesc="A package manager for blendOS"
+pkgdesc="An update system for operating systems"
 arch=('x86_64' 'i686')
 url="https://github.com/blend-os/blend"
 license=('GPL3')
