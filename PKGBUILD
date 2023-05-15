@@ -26,7 +26,7 @@ package() {
         "${pkgname%-git}" \
         -t "${pkgdir}"/usr/bin/
     install -Dm644 "${pkgname%-git}.service" -t \
-        "${pkgdir}"/usr/lib/systemd/user/
+        "${pkgdir}"/usr/lib/systemd/system/
     install -Dm644 "${pkgname%-git}.hook" \
         "${pkgdir}/usr/lib/initcpio/hooks/${pkgname%-git}"
     install -Dm644 "${pkgname%-git}.install" \
