@@ -8,7 +8,7 @@ arch=('x86_64' 'i686')
 url="https://github.com/blend-os/blend"
 license=('GPL3')
 makedepends=("electron${_electronversion}" 'git' 'npm' 'base-devel')
-source=('git+https://github.com/blend-os/akshara.git')
+source=('git+file://[BASE_ASSEMBLE_PATH]/projects/akshara')
 sha256sums=('SKIP')
 
 depends=('bash' 'python' 'python-lockfile' 'python-psutil' 'python-fasteners' 'squashfs-tools' 'p7zip' 'zsync')
