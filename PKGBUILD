@@ -11,7 +11,7 @@ makedepends=("electron${_electronversion}" 'git' 'npm' 'base-devel')
 source=('git+file://[BASE_ASSEMBLE_PATH]/projects/akshara')
 sha256sums=('SKIP')
 
-depends=('bash' 'python' 'python-lockfile' 'python-psutil' 'python-fasteners' 'squashfs-tools' 'p7zip' 'zsync')
+depends=('bash' 'python' 'python-lockfile' 'python-psutil' 'python-fasteners' 'squashfs-tools' 'p7zip' 'zsync2')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
 
